@@ -1,4 +1,5 @@
 const { Contact } = require("../../models/contact");
+const { Error } = require("http-errors");
 
 const getBiId = async (req, res) => {
   const { contactId } = req.params;
